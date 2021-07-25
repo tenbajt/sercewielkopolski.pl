@@ -1,7 +1,7 @@
 import React from "react"
 import styled from "styled-components"
-import fb_logo from "../images/facebook.png"
-import ig_logo from "../images/instagram.png"
+import facebook_logo from "../images/facebook.png"
+import instagram_logo from "../images/instagram.png"
 
 const List = styled.ul`
     gap: 0.25rem;
@@ -9,19 +9,23 @@ const List = styled.ul`
     padding: 0;
     display: grid;
     list-style: none;
-    justify-content: center;
-    @media (min-width: 768px) { 
+    @media (min-width: 768px) {
+        justify-content: center;
         grid-template-columns: repeat(3, 1fr);
     }
 `
 const Item = styled.li`
     overflow: hidden;
+    &:last-child {
+        border-bottom-left-radius: 0.75rem;
+        border-bottom-right-radius: 0.75rem;
+    }
     @media (min-width: 768px) { 
         &:first-child {
             border-bottom-left-radius: 0.75rem;
         }
         &:last-child {
-            border-bottom-right-radius: 0.75rem;
+            border-bottom-left-radius: 0;
         }
     }
 `
@@ -53,7 +57,7 @@ const Logo = styled.img`
     object-fit: contain;
 `
 
-function SocialMedia () {
+function ContactButtons () {
     return (
         <List>
             <Item>
@@ -66,13 +70,13 @@ function SocialMedia () {
             </Item>
             <Item>
                 <Link href="https://www.facebook.com/mlekooodkrowy/">
-                    <Logo src={fb_logo} alt="Facebook"/>
+                    <Logo src={facebook_logo} alt="Facebook"/>
                     @mlekoodkrowy
                 </Link>
             </Item>
             <Item>
                 <Link href="https://www.instagram.com/mleko_od_krowy/">
-                    <Logo src={ig_logo} alt="Instagram"/>
+                    <Logo src={instagram_logo} alt="Instagram"/>
                     @mleko_od_krowy
                 </Link>
             </Item>
@@ -80,4 +84,4 @@ function SocialMedia () {
     )
 }
 
-export default SocialMedia;
+export default ContactButtons;
