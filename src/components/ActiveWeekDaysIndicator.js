@@ -22,7 +22,7 @@ const Day = Styled.span`
     line-height: 1rem;
     align-items: center;
     justify-items: center;
-    background-color: ${props => props.active ? color.green(600) : color.green(100)};
+    background-color: ${props => props.active ? color.amber(500) : color.amber(100)};
 `;
 
 const days = {

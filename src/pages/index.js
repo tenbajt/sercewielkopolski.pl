@@ -190,7 +190,7 @@ const HomePage = () => {
                     <Background style={{background: "url(/images/hero-background.jpg) center/cover no-repeat"}}/>
                     <HeroContentGrid>
                         <HeroHeading>
-                            Zmieniamy <span style={{color: color.green(600)}}>się</span> na lepsze
+                            Zmieniamy <span style={{color: color.amber(500)}}>się</span> na lepsze
                         </HeroHeading>
                         <HeroButtonGroup>
                             <ContactButton
@@ -201,12 +201,12 @@ const HomePage = () => {
                                 alt="Facebook"
                                 url="https://www.facebook.com/mlekooodkrowy/"
                                 image="/images/facebook-logo.png"
-                                label="@mlekoodkrowy"/>
+                                label="@sercewielkopolski "/>
                             <ContactButton
                                 alt="Instagram"
                                 url="https://www.instagram.com/mleko_od_krowy/"
                                 image="/images/instagram-logo.png"
-                                label="@mleko_od_krowy"/>
+                                label="@ser_ce_wielkopolski "/>
                         </HeroButtonGroup>
                     </HeroContentGrid>
                     <ScrollDownButton onClick={scrollToZoneMap}>
@@ -221,20 +221,20 @@ const HomePage = () => {
                         <ZoneRate
                             value="1 zł"
                             label="Koszt dostawy"
-                            color={color.green(600)}/>
+                            color={color.amber(500)}/>
                         <ZoneRate
                             value="10 zł"
                             label={"Minimalna wartość\nzamówienia"}
-                            color={color.green(600)}/>
+                            color={color.amber(500)}/>
                         <ZoneRatesSeparator/>
                         <ZoneRate
                             value="10 zł"
                             label="Koszt dostawy"
-                            color={color.green(800)}/>
+                            color={color.amber(700)}/>
                         <ZoneRate
                             value="100 zł"
                             label={"Minimalna wartość\nzamówienia"}
-                            color={color.green(800)}/>
+                            color={color.amber(700)}/>
                     </ZoneRatesGrid>
                     <ZoneRatesMap src="/images/delivery-map.png" alt="Mapa stref dostaw"/>
                 </ZoneMapGrid>
@@ -246,7 +246,7 @@ const HomePage = () => {
                             text="Dostawy realizujemy własnym transportem w wyznaczonych strefach dostaw w godzinach:"
                             title="Dostawy"
                             timeFrame="06:00 - 22:00"
-                            activeWeekDays={["PN", "ŚR", "PT"]}/>
+                            activeWeekDays={["PN", "ŚR"]}/>
                         <OrderDetails
                             icon="support_agent"
                             text="Zamówienia przyjmujemy telefonicznie lub poprzez komunikator Facebook Messenger® w godzinach:"
@@ -256,14 +256,14 @@ const HomePage = () => {
                     </OrderDetailsGrid>
                 </Section>
                 <ZoneCitiesGrid>
-                    <ZoneCities label="Strefa 1" indicator={color.green(600)} cities="Poznań, Babki, Borówiec, Czapury, Dachowa, Daszewice, Gądki, Jaryszki, Kamionki,
+                    <ZoneCities label="Strefa 1" indicator={color.amber(500)} cities="Poznań, Babki, Borówiec, Czapury, Dachowa, Daszewice, Gądki, Jaryszki, Kamionki,
                             Koninko, Robakowo, Skrzynki, Szczytniki, Wiórek, Baranowo, Bogucin, Chyby, Dąbrówka, Dopiewiec,
                             Dopiewo, Garby, Głuchowo, Gołuski, Gowarzewo, Jasin, Jelonek, Kiekrz, Komorniki, Koziegłowy,
                             Kórnik, Kruszewnia, Luboń, Łęczyca, Palędzie, Plewiska, Przeźmierowo, Puszczykowo, Rabowice,
                             Rogalinek, Rosnowo, Sasinowo, Skórzewo, Suchy Las, Swadzim, Swarzędz, Szewce, Tanibórz, Tulce,
                             Wiry, Wysogotowo, Zalasewo, Złotniki, Żerniki, Cerekwica, Napachanie, Mrowino, Rokietnica,
                             Tarnowo Podgórne."/>
-                    <ZoneCities label="Strefa 2" indicator={color.green(800)} cities="Stęszew, Zaniemyśl, Środa wlkp, Kostrzyn wlkp, Jeziory małe, Jeziory wielkie,
+                    <ZoneCities label="Strefa 2" indicator={color.amber(700)} cities="Stęszew, Zaniemyśl, Środa wlkp, Kostrzyn wlkp, Jeziory małe, Jeziory wielkie,
                             Topola, Zmysłowo, Urniszewo, Kleszczewo, Paczkowo, Siekierki Wielkie, Siekierki Małe, Trzek,
                             Kobylnica, Gruszczyn, Bugaj, Krzyszkowo, Przecławek, Pamiątkowo."/>
                 </ZoneCitiesGrid>

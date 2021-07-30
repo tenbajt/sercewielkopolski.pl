@@ -24,10 +24,10 @@ const Container = Styled.div`
 `;
 
 const Icon = Styled.i`
-    color: ${color.green(800)};
+    color: ${color.amber(800)};
     padding: 1rem;
     border-radius: 0.75rem;
-    background-color: ${color.green(100)};
+    background-color: ${color.amber(100)};
 `;
 
 const Title = Styled.h2`

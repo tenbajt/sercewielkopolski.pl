@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.mlekoodkrowy.pl",
-    title: "Mleko prosto od krowy - 100% naturalne | Zamów z dostawą do domu",
+    siteUrl: "https://www.sercewielkopolski.pl",
+    title: "Ser[ce] Wielkopolski - 100% naturalny nabiał | Zamów z dostawą do domu!",
   },
   plugins: ["gatsby-plugin-styled-components", "gatsby-plugin-react-helmet"],
 };
