@@ -3,9 +3,6 @@
     <img alt="Tenbajt" src="https://www.tenbajt.pl/images/github-logo.svg" height="60" />
   </a>
 </p>
-<h1 align="center">
-  Outsourcing IT
-</h1>
 
 <p align="center">
   Kod źródłowy strony internetowej [mlekoodkrowy.pl](https://www.mlekoodkrowy.pl)
