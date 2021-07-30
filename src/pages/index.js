@@ -12,7 +12,9 @@ import ContactButton from "../components/ContactButton";
 import { color, shadow, breakpoint } from "../tenbajt/Utils";
 
 
-SmoothsSroll.polyfill();
+if (typeof window !== "undefined") {
+    SmoothsSroll.polyfill();
+}
 
 const HeroGrid = Styled(Section)`
     height: 100%;
