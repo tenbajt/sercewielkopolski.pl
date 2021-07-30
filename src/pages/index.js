@@ -199,14 +199,14 @@ const HomePage = () => {
                                 label="536 296 895"/>
                             <ContactButton
                                 alt="Facebook"
-                                url="https://www.facebook.com/mlekooodkrowy/"
+                                url="https://www.facebook.com/sercewielkopolski/"
                                 image="/images/social/facebook.png"
-                                label="@sercewielkopolski "/>
+                                label="@sercewielkopolski"/>
                             <ContactButton
                                 alt="Instagram"
-                                url="https://www.instagram.com/mleko_od_krowy/"
+                                url="https://www.instagram.com/ser_ce_wielkopolski/"
                                 image="/images/social/instagram.png"
-                                label="@ser_ce_wielkopolski "/>
+                                label="@ser_ce_wielkopolski"/>
                         </HeroButtonGroup>
                     </HeroContentGrid>
                     <ScrollDownButton onClick={scrollToZoneMap}>
