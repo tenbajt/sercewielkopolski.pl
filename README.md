@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://www.tenbajt.pl">
-    <img alt="Tenbajt" src="https://www.tenbajt.pl/images/github-logo.svg" width="60" />
+    <img alt="Tenbajt" src="https://www.tenbajt.pl/images/github-logo.svg" height="60" />
   </a>
 </p>
 <h1 align="center">
