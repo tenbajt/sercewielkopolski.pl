@@ -200,12 +200,12 @@ const HomePage = () => {
                             <ContactButton
                                 alt="Facebook"
                                 url="https://www.facebook.com/mlekooodkrowy/"
-                                image="/images/facebook-logo.png"
+                                image="/images/social/facebook.png"
                                 label="@sercewielkopolski "/>
                             <ContactButton
                                 alt="Instagram"
                                 url="https://www.instagram.com/mleko_od_krowy/"
-                                image="/images/instagram-logo.png"
+                                image="/images/social/instagram.png"
                                 label="@ser_ce_wielkopolski "/>
                         </HeroButtonGroup>
                     </HeroContentGrid>
