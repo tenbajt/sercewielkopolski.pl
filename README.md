@@ -1,13 +1,15 @@
 <p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
+  <a href="https://www.tenbajt.pl">
+    <img alt="Tenbajt" src="https://www.tenbajt.pl/images/github-logo.svg" width="60" />
   </a>
 </p>
 <h1 align="center">
-  Gatsby minimal starter
+  Tenbajt Outsourcing IT
 </h1>
 
-## 🚀 Quick start
+## Projekt strony z wykorzystaniem Gatsby®
+
+Link do strony projektu: https://www.mlekoodkrowy.pl
 
 1.  **Create a Gatsby site.**
 
@@ -51,4 +53,4 @@
 
 Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
 
-[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal)
+[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Zamów własny projekt">](https://www.tenbajt.pl)
