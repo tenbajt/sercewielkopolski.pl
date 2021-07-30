@@ -4,9 +4,11 @@
   </a>
 </p>
 <h1 align="center">
-  Tenbajt Outsourcing IT
+  Outsourcing IT
 </h1>
 
-Kod źródłowy strony internetowej [mlekoodkrowy.pl](https://www.mlekoodkrowy.pl)
+<p align="center">
+  Kod źródłowy strony internetowej [mlekoodkrowy.pl](https://www.mlekoodkrowy.pl)
+</p>
 
 [<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Zamów własny projekt">](https://www.tenbajt.pl)
