@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://www.tenbajt.pl">
-    <img alt="Tenbajt" src="https://www.tenbajt.pl/images/github-logo.svg" width="60" />
+    <img alt="Tenbajt" src="https://www.tenbajt.pl/images/mail-logo-blue.png" width="60" />
   </a>
 </p>
 <h1 align="center">
@@ -9,7 +9,7 @@
 
 ## Projekt strony z wykorzystaniem Gatsby®
 
-Link do strony projektu: https://www.mlekoodkrowy.pl
+Kod źródłowy strony internetowej [mlekoodkrowy.pl](https://www.mlekoodkrowy.pl)
 
 1.  **Create a Gatsby site.**
 
